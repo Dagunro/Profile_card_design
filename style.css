@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    background: linear-gradient(180deg, blue 30%, white 10%); 
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 3px 21px 42px -18px rgba(0,0,0,0.91);
+    -webkit-box-shadow: 3px 21px 42px -18px rgba(0,0,0,0.91);
+    -moz-box-shadow: 3px 21px 42px -18px rgba(0,0,0,0.91); 
+}
+
+
+.pics{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border: 4px solid blue;
+}
+
+h3, p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 35px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.facebook, .twitter, .instagram, .youtube{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.Subscribe, .Message {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    margin: 0px 10px;
+}
+
+.like-comment-reply{
+    display: flex;
+    margin: 30px auto;
+}
+.like, .comment, .reply{
+    width: 13px;
+    height: 13px;
+    margin-right: 1px;      
+}
+
+span {
+    margin-right: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
